@@ -1,0 +1,195 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 24-11-2020, 5:28:47
+    Author     : Daniel
+*/
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap');
+* { box-sizing: border-box; margin:0; font-family: 'Ubuntu', sans-serif, serif; }
+header{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    
+    background-color: #283618;
+    
+}
+.header-top{
+    display:flex;
+    justify-content: space-between;
+    color:#FEFAE0;
+    
+    
+}
+h3{
+        margin-right: 50px;
+        padding-top: 20px;
+}
+.myBar{
+    display:flex;
+    background-color: #606C38;
+}
+nav a{
+    padding:5px 15px;
+    margin:0;
+    text-decoration: none;
+    color:#FEFAE0;
+}
+.active{
+    background-color: #283618;
+}
+main{
+    height:84vh;
+    display:flex;
+    flex-direction:row;
+    background-color: #D8F3DC;
+}
+.filters{
+    height:100%;
+    width:15vw;
+    background-color:#02C39A;
+    display:flex;
+    flex-direction: column;
+    
+    align-items: center;;
+    overflow: auto;
+}
+.element{
+    display:flex;
+    flex-direction: column;
+    width:100%;
+}
+.subButton{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.subButton input{
+    width:100%;
+}
+.data{
+    width:85vw;
+}
+a{
+    text-decoration: none;
+}
+table{
+    width:100%;
+    border:solid;
+}
+#popup-dialog{
+    display:none;
+    position:absolute;
+    top:32vh;
+    left:38vw;
+}
+.popForm{
+    display:flex;
+    width:25vw;
+    height:35vh;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: whitesmoke;
+    padding:15px;
+}
+.formItem{
+    display:flex;
+    width:100%;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.formBtns{
+    display:flex;
+    width:100%;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+.btnx{
+    width:40%;
+    border:none;
+}
+.btnxSend{
+    background-color: greenyellow;
+    color:white;
+}
+.btnxCancel{
+    background-color: red;
+    color:white;
+}.search2{
+    display:none;
+}
+#patientDetails{
+    display:none;
+}
+#patientDetails{
+    display:none;
+    position:absolute;
+    top:32vh;
+    left:38vw;
+}
+.patientDet{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#patientData{
+    display:flex;
+    justify-content: space-around;
+}
+#personalData{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#patientAddress{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#process{
+    display:flex;
+    justify-content: space-around;
+}
+#processLeftPanel{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#patientDetails{
+    display:none;
+    position:absolute;
+    top:10vh;
+    left:10vw;
+}
+.patientDet{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width:40vw;
+    height:60vh;
+}
+#patientData{
+    display:flex;
+    justify-content: space-between;
+    width:100%;
+    height:35%;
+}
+.patientDat{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width:50%;
+    height:100%;
+}
+#process{
+    display:flex;
+    justify-content: space-between;
+    width:100%;
+    height:50%;
+}

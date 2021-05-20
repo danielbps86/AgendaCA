@@ -1,0 +1,223 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 14-12-2020, 16:13:22
+    Author     : Daniel
+*/
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap');
+* { box-sizing: border-box; margin:0; font-family: 'Ubuntu', sans-serif, serif; }
+header{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    
+    background-color: #283618;
+    
+}
+.header-top{
+    display:flex;
+    justify-content: space-between;
+    color:#FEFAE0;
+    
+    
+}
+h3{
+        margin-right: 50px;
+        padding-top: 20px;
+}
+.myBar{
+    display:flex;
+    background-color: #606C38;
+}
+nav a{
+    padding:5px 15px;
+    margin:0;
+    text-decoration: none;
+    color:#FEFAE0;
+}
+.active{
+    background-color: #283618;
+}
+main{
+    height:84vh;
+    display:flex;
+    flex-direction:row;
+    background-color: #D8F3DC;
+}
+.filters{
+    height:100%;
+    width:15vw;
+    background-color:#02C39A;
+    display:flex;
+    flex-direction: column;
+    
+    align-items: center;;
+    overflow: auto;
+}
+.year-month{
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+}
+.calendario{
+    width:100%;
+    height:auto;
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows:1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap:1px;
+    font-size:0.85em;
+}
+.selected{
+    background-color: yellow;
+    text-align: center;
+    cursor:pointer;
+}
+.notSelected{
+    background-color: greenyellow;
+    text-align: center;
+    cursor:pointer;
+}
+.selected:hover, .notSelected:hover{
+    background-color: lightcoral;
+}
+.previousMonth{
+    background-color: graytext;
+    text-align: center;
+    cursor:pointer;
+}
+.nextMonth{
+    background-color: blueviolet;
+    text-align: center;
+    cursor:pointer;
+}
+.schedule{
+    width:85vw;
+    display:flex;
+    flex-direction:column;
+    
+}
+#sch-header{
+    width:100%;
+    padding:10px 0;
+    height:auto;
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+}
+#date{
+   text-align: center;
+   padding:5px;
+}
+.element{
+    width:90%;
+    display:flex;
+    flex-direction: column;
+    margin:15px 0;
+}
+#location{
+    width:100%;
+}
+#organize{
+    width:100%;
+}
+.block{
+    width:100px;
+    display:flex;
+    justify-content: space-between;
+}
+.therapist{
+    width:50%;
+    background-color: rosybrown;
+    border-radius: 10%;
+    text-align: center;
+}
+.patient{
+    width:50%;
+    background-color: graytext;
+    border-radius: 10%;
+    text-align: center;
+    cursor:default;
+}
+.patient2{
+    width:100%;
+    background-color: graytext;
+    color:graytext;
+    border-radius: 10%;
+    text-align: center;
+}
+.booked{
+    background-color: greenyellow;
+}
+.confirmed{
+    background-color: orangered;
+}
+.paid{
+    background-color: yellow;
+}
+.attended{
+    background-color: blue;
+}
+.notAttended{
+    background-color: red;
+}
+.available{
+    width:100%;
+    background-color: white;
+    color:white;
+    border-radius: 10%;
+    text-align: center;
+}
+#bookingDetails{
+    display:none;
+    position:absolute;
+    top:20vh;
+    left:20vw;
+    z-index:10;
+}
+.bookingContainer{
+    margin:10% 0;
+    padding-top:5%;
+    padding-bottom: 5%;
+    display:flex;
+    justify-content: space-around;
+    background-color: whitesmoke;
+    width:700px;
+    height:auto;
+}
+.left-panel{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.right-top{
+    display:flex;
+    flex-direction:column;
+}
+.right-bottom{
+    display:flex;
+    justify-content: space-between;
+    width:100%;
+}
+.btnPanel{
+    width:40%;
+}
+.right-panel{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.panel-element{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+#tooltip {
+    position:absolute;
+    background:#DB2A64;
+    color:#ffffff;
+    padding:8px;
+}

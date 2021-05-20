@@ -1,0 +1,54 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 14-06-2020, 22:48:29
+    Author     : Daniel
+*/
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap');
+* { box-sizing: border-box; margin:0; font-family: 'Ubuntu', sans-serif, serif; }
+body{
+    
+    
+}
+.main{
+    background: url(images/forest.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 18px;
+    display:flex;
+    
+    justify-content: center;
+    align-items: center;
+    color:white;
+    width:100vw;
+    height:100vh;
+    
+}
+.formulario{
+        background-color:rgba(37,37,37,0.75);
+        width:20%;
+        height:auto;
+        padding:20px;
+        display:flex;
+        flex-direction:column;
+        justify-content:space-between;
+        border-radius:5%
+    }
+    form{
+        display:flex;
+        flex-direction:column;
+        justify-content:space-around;
+    }
+    h1{
+        text-align: center;
+        color:orange;
+    }
+
+
+#enviar{
+    background-color: orange;
+    color:white;
+}

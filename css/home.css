@@ -1,0 +1,59 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 21-11-2020, 0:59:41
+    Author     : Daniel
+*/
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap');
+* { box-sizing: border-box; margin:0; font-family: 'Ubuntu', sans-serif, serif; }
+header{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    
+    background-color: #283618;
+    
+}
+.header-top{
+    display:flex;
+    justify-content: space-between;
+    color:#FEFAE0;
+    
+    
+}
+h3{
+        margin-right: 50px;
+        padding-top: 20px;
+}
+.myBar{
+    display:flex;
+    background-color: #606C38;
+}
+nav a{
+    padding:5px 15px;
+    margin:0;
+    text-decoration: none;
+    color:#FEFAE0;
+}
+.active{
+    background-color: #283618;
+}
+main{
+    height:84vh;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+    background-color: #D8F3DC;
+}
+.main-buttons{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    
+}
+a{
+    text-decoration: none;
+}
